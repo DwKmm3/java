@@ -1,9 +1,9 @@
 package java0314;
 
 public class SwitchCase {
-    public static void intCase(int ranking){
+    public static void intCase(int reanking){
         char medalColor;
-        switch (ranking){
+        switch (reanking){
             case 1:medalColor='G';
                 break;//break가 없으면 모두 실행되기 때문에 꼭 넣기
             case 2:medalColor='S';

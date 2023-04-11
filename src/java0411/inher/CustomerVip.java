@@ -8,4 +8,7 @@ public class CustomerVip extends Customer{
         bonusRatio=0.05;
         saleRatio=0.1;
     }
+    public int getAgenId(){
+        return agenId;
+    }
 }

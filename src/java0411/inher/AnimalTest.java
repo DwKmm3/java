@@ -9,6 +9,6 @@ public class AnimalTest {
         eagle.eat();
 
         Lion lion=new Lion();
-        lion.eat();
+        lion.sleep();
     }
 }

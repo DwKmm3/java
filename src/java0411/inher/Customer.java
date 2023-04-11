@@ -14,4 +14,7 @@ public class Customer {
         bonusPoint += price*bonusRatio;
         return price;
     }
+    public String showCustomerInfo(){
+        return customerName+"님의 등급은"+customerGrade+"어머, 보너스 포인트는"+bonusPoint+"입니다.";
+    }
 }

@@ -23,6 +23,9 @@ public class CustomerArrayTest {
             System.out.println(customer.showCustomerInfo());
         }
 
+        System.out.println("size : "+customerList.size());
+        System.out.println("cumtomerInfo : "+customerList.get(1).showCustomerInfo());
+
         /*int aa[]=new int[10];
         for (integer i : int[10]){
 

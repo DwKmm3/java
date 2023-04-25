@@ -1,6 +1,6 @@
-package java0411.inher;
+package java0425;
 
-public class CustomerVip extends Customer{
+public class CustomerVip extends Customer {
     private  int agenId;
     double saleRatio;
     public CustomerVip(){

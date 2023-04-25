@@ -1,4 +1,4 @@
-package java0411.inher;
+package java0425;
 
 public class Customer {
     private int customerId;
@@ -38,6 +38,6 @@ public class Customer {
     }
 
     public String showCustomerInfo(){
-        return customerName+"님의 등급은"+customerGrade+"어머, 보너스 포인트는"+bonusPoint+"입니다.";
+        return customerName+"님의 등급은 "+customerGrade+"이며, 보너스 포인트는 "+bonusPoint+"입니다.";
     }
 }

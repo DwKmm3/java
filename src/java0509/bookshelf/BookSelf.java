@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package java0509.bookshelf;
 
 public class BookSelf extends Shelf implements Queue{
@@ -8,7 +7,7 @@ public class BookSelf extends Shelf implements Queue{
     }
 
     @Override
-    public String dequeue() {
+    public String deQueue() {
         return shelf.remove(0);
     }
 
@@ -17,23 +16,3 @@ public class BookSelf extends Shelf implements Queue{
         return getCount();
     }
 }
-=======
-package java0509.bookshelf;
-
-public class BookSelf extends Shelf implements Queue{
-    @Override
-    public void enQueue(String title) {
-        shelf.add(title);
-    }
-
-    @Override
-    public String dequeue() {
-        return shelf.remove(0);
-    }
-
-    @Override
-    public int getSize() {
-        return getCount();
-    }
-}
->>>>>>> github/master

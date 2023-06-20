@@ -1,3 +1,4 @@
+/*
 package test;
 //Q2
 public class Calc {
@@ -37,3 +38,4 @@ public class Calc {
         System.out.println("10 / 5 = "+d);
     }
 }
+*/

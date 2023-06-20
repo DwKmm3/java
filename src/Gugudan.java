@@ -1,5 +1,6 @@
-package test;
+//package test;
 //Q1
+/*
 public class Gugudan {
     public static void main(String[] args) {
         for (int dan = 1; dan < 10; dan++) {
@@ -17,3 +18,5 @@ public class Gugudan {
         }
     }
 }
+
+ */
